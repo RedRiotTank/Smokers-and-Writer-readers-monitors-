@@ -1,0 +1,17 @@
+
+
+recibeJugador en calse CASILLA:
+
+
+TipoCasilla tipo = this.tipo;
+
+        if (tipo == TipoCasilla.CALLE) {
+            recibeJugador_calle(iactual, todos);
+        }
+
+        if (tipo == TipoCasilla.SORPRESA) {
+            recibeJugador_sorpresa(iactual, todos);
+        }
+        if (tipo == TipoCasilla.DESCANSO) {
+            informe(iactual, todos);
+        }
